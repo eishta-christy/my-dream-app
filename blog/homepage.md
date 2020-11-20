@@ -1,5 +1,5 @@
 ---
-title: Hier is Christina's language blog
+title: Hier is Christina's little language blog wth a big name
 description: Welcome to my site, where I share thoughts on natural language processingand whatever things I fancy.
 published: true
 ---
