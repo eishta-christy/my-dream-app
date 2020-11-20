@@ -5,6 +5,7 @@ published: true
 ---
 
 # Preprocessing of linguistic data for machine learning
+![banner](https://source.unsplash.com/970x150 "Linguistic Intelligence")
 
 Let's say we see a text: 
 > "Bei Split-Brain-Patienten wird die zentrale Verbindung zwischen den Gehirnhälften, der Balken, durchtrennt. So dramatisch die Durchtrennung der Verbindung zwischen den beiden Gehirnhälften für den einzelnen Patienten ist: Die Neurowissenschaftler haben durch diese Operation enorm viel über das menschliche *Gehirn* erfahren. Die Hälften des *Gehirns* repräsentierten bald zwei isolierte Egos. Obwohl die Sache so einfach nie dargestellt wurde, treiben einige Vorurteile und populärwissenschaftliche Ansichten darüber immer noch ihr Unwesen." 
