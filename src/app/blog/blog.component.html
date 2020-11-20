@@ -1,7 +1,15 @@
-<h3>ScullyIo content</h3>
+<script>
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+  </script>
+  
+<h4>Today is </h3><h3 id="date"></h4>
 <hr>
 
 <!-- This is where Scully will inject the static HTML -->
 <scully-content></scully-content>
 <hr>
-<h4>End of content</h4>
+<h4>We are all just little stars in the infinity of the universe.</h4>
