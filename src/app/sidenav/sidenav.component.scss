@@ -1,0 +1,25 @@
+.sidenav {
+  &__base {
+    position: relative;
+    padding-top: 30px;
+  }
+  &__list {
+    padding-right: 30px;
+  }
+  &__listItem {
+    padding: 10px 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid rgb(226, 231, 232);
+    }
+    // so we don't print the root item
+    &:last-child {
+      display: none;
+      visibility: hidden;
+    }
+  }
+  &__link {
+    color: rgb(21, 87, 126);
+    text-decoration: none;
+  }
+}

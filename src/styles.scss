@@ -1,1 +1,191 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+
+// markdown generated
+/* h1[id*='lecci'],
+h1[id*='aprende'] {
+  background-color: rgb(233, 235, 236) !important;
+}  */
+
+p {
+    padding: 10px 0;
+  }
+  
+  ol {
+    list-style: none;
+  }
+  
+  li > p {
+    padding: 0;
+  }
+  
+  li {
+    code {
+      border: 0;
+    }
+  }
+  
+  .logo {
+    &__base {
+      font-family: monospace;
+      font-size: 21px;
+      padding: 15px;
+    }
+  }
+  
+  code {
+    font-size: x-large;
+    padding: 10px;
+    border: 1px solid #e8e9f5;
+    border-radius: 10px;
+    color: #4785c5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .body {
+    &__base {
+  
+      > div {
+        margin-bottom: 125px;
+      }
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    &__innerWrapper {
+      display: grid;
+      grid-template-columns: 300px 80vw;
+      grid-template-rows: 1fr ;
+      gap: 1px 20px;
+      grid-template-areas: "sidenav main";
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(67, 66, 66);
+      position: relative;
+      margin-left: -250px;
+      height: 100%;
+      bottom: 0;
+      position: absolute;
+      top: 60px;
+  
+      @media (min-width: 800px) {
+        margin-left: 0;
+        grid-template-columns: 300px 70vw;
+      }
+    }
+  }
+  
+  .header { 
+  
+    &__base {
+      height: 50px;
+      padding: 0 10px;
+      border-bottom: 1px solid lightgray;
+    }
+  }
+  
+  .menu {
+    &__label {
+      position: absolute;
+      top: 60px;
+      left: 3px;
+      font-size: 33px;
+      z-index: 1;
+      cursor: pointer;
+      display: block;
+      width: 70px;
+      height: 40px;
+  
+      @media (min-width: 800px) {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  
+    &__button {
+      display: none;
+      position: relative;
+  
+      + .body__innerWrapper:before {
+        content: '\2630';
+        position: absolute;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+        left: 254px;
+  
+        @media (min-width: 800px) {
+          display: none;
+          visibility: hidden;
+        }
+      }
+  
+      &:checked + .body__innerWrapper {
+        margin-left: 0;
+  
+        &:before {
+          content: '\02DF';
+          left: 20px;
+        }
+      }
+    }
+  }
+  .aside {
+    &__base {
+      border-right: 1px solid lightgray;
+      height: 100%;
+    }
+  }
+  
+  .component {
+    padding: 20px;
+  }
+  
+  .sidenav { grid-area: sidenav; }
+  
+  .footer {
+    &__base {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      background-color: #000000;
+      color: #e8e9f5;
+      height: 125px;
+  
+      p {
+        padding: 15px 0;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: monospace;
+  
+        a {
+          color: #efc4ef;
+        }
+      }
+    }
+  }
+  
+  .main { 
+    grid-area: main;
+  
+    &__base {
+      margin-top: 50px;
+      padding-bottom: 200px;
+  
+      a:link,
+      a:visited,
+      a:active {
+        color: #ca07ca;
+      }
+    }
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
